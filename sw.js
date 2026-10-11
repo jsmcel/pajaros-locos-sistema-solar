@@ -1,6 +1,6 @@
-const CACHE='solar-jorge-1';
+const CACHE='solar-jorge-arcade-2';
 self.addEventListener('install',event=>event.waitUntil((async()=>{const response=await fetch('asset-list.json',{cache:'no-store'});if(!response.ok)throw new Error('Missing local asset list');const paths=await response.json();const cache=await caches.open(CACHE);await cache.addAll(paths.map(p=>'./'+p));await self.skipWaiting();})()));
-self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('solar-jorge-')&&key!==CACHE)await caches.delete(key);await self.clients.claim();})()));
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;
   event.respondWith((async()=>{
