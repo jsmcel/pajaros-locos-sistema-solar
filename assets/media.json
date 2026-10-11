@@ -1,0 +1,86 @@
+{
+  "planets": {
+    "file": "assets/video/planets.mp4",
+    "poster": "assets/video/planets.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 11.000325
+  },
+  "order": {
+    "file": "assets/video/order.mp4",
+    "poster": "assets/video/order.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 19.250325
+  },
+  "earth": {
+    "file": "assets/video/earth.mp4",
+    "poster": "assets/video/earth.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 25.125325
+  },
+  "sun": {
+    "file": "assets/video/sun.mp4",
+    "poster": "assets/video/sun.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 14.750325
+  },
+  "orbit": {
+    "file": "assets/video/orbit.mp4",
+    "poster": "assets/video/orbit.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 9.666992
+  },
+  "moon": {
+    "file": "assets/video/moon.mp4",
+    "poster": "assets/video/moon.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 8.708659
+  },
+  "moon-month": {
+    "file": "assets/video/moon-month.mp4",
+    "poster": "assets/video/moon-month.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 10.500325
+  },
+  "phases": {
+    "file": "assets/video/phases.mp4",
+    "poster": "assets/video/phases.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 19.666992
+  },
+  "rotation": {
+    "file": "assets/video/rotation.mp4",
+    "poster": "assets/video/rotation.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 14.041992
+  },
+  "daynight": {
+    "file": "assets/video/daynight.mp4",
+    "poster": "assets/video/daynight.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 13.208659
+  },
+  "year": {
+    "file": "assets/video/year.mp4",
+    "poster": "assets/video/year.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 24.625325
+  },
+  "seasons": {
+    "file": "assets/video/seasons.mp4",
+    "poster": "assets/video/seasons.jpg",
+    "engine": "WAN 2.2",
+    "voice": "Qwen3-TTS",
+    "duration": 14.416992
+  }
+}
